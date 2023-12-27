@@ -16,7 +16,7 @@ const mongooseOptions = {
   //useFindAndModify: false,
 };
 
-mongoose.connect('mongodb+srv://deepakanto212:deepak212@cluster0.cgdzxan.mongodb.net/?retryWrites=true&w=majority', mongooseOptions)
+mongoose.connect('mongodb+srv://deepakanto212:*****@cluster0.cgdzxan.mongodb.net/?retryWrites=true&w=majority', mongooseOptions)
   .then(() => {
     console.log('Connected to MongoDB Atlas');
   })
